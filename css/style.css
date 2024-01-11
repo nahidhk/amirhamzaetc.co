@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  font-family: 'Hedvig Letters Sans', sans-serif;
+}
+.nav{
+  height: 70px;
+  width: 100%;
+  background-color: #eeeeeea1;
+  backdrop-filter: blur("4px");
+  position: fixed;
+  top: 0;
+  box-shadow: 0 0 3px 0 #000;
+
+}
+
+.nav .tittle-nav{
+  font-size: 30px;
+  color: #4680ff;
+  position: absolute;
+  top: 14px;
+  left: 20px;
+  cursor: pointer;
+}
+.nav .tittle-nav:hover{
+  color: rgb(247, 0, 255);
+}
+.nav .menu-box{
+height: auto;
+width: auto;
+position: absolute;
+right: 10px;
+top: 20px;
+}
+button{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.nav .menu-box .nav-btn{
+  font-size: 18px;
+  color: #4680ff;
+  background-color: #00000000;
+ cursor: pointer;
+ border: none;
+ transition: all 0.7s ;
+}
+.nav .menu-box .nav-btn:hover{
+  color: orangered;
+  border-bottom: 3px dotted #4680ff ;
+  border-width: 10px;
+}
