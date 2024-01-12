@@ -45,6 +45,69 @@ button{
 }
 .nav .menu-box .nav-btn:hover{
   color: orangered;
-  border-bottom: 3px dotted #4680ff ;
-  border-width: 10px;
+  border-bottom: 1px solid #4680ff ;
+  border-radius: 100px;
+}
+
+.menu-icon{
+  display: none;
+}
+
+
+/* =======================
+css mobile 
+=========================*/
+
+@media only screen and (max-width: 600px) {
+  .menu-icon{
+    cursor: pointer;
+  display: block;
+  font-size: 37px;
+  position: absolute;
+  top: 13px;
+  right: 20px;
+  transition: all 0.7s ;
+}
+.vcc{
+  display: none;
+}
+ .menu-icon:hover{
+  font-size: 37px;
+  position: absolute;
+ background-color: #FF00A9;
+  border-radius: 100px;
+ color: #fff;
+ width: 40px;
+ padding-left: 8px;
+}
+
+.nav .menu-box{
+height: 100vh;
+width: 100%;
+position: absolute;
+right: 10px;
+top: 20px;
+background-color: #DCDCDC;
+top: 0;
+}
+.nav .menu-box .nav-btn{
+  height: 40px;
+  width: 60%;
+  font-size: 18px;
+  color: #4680ff;
+  background-color: #00000000;
+ cursor: pointer;
+ border: 1px dotted #4680ff;
+ transition: all 0.7s ;
+ margin: 10px;
+ margin-left: 30px;
+}
+.nav .menu-box .nav-btn:hover{
+  color: orangered;
+ border: 1px solid orangered;
+ border-radius: 100px;
+}
+
+
+
 }

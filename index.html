@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+ <!-- boostarp icon api --->
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <!-- google font api -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,12 +14,20 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
+  
     <title>Amir Hamza Eletic</title>
 </head>
 <body>
 <section class="nav animate__animated animate__fadeInDownBig">
 <span class="tittle-nav">Amir Hamza Eletic</span>
-<div class="menu-box" id="menu_box">
+
+<div onclick="opne()" class="menu-icon">
+  
+ <i class="bi bi-list"></i> 
+</div>
+
+
+<div class="menu-box vcc" id="menu_box">
 <button class="nav-btn"> 
   Home
 </button>
@@ -39,8 +49,14 @@ pryvice Poaice
 <button class="nav-btn"> 
 Support
 </button>  
+<div onclick="clos()" id="clos" class="menu-icon">
+  
+ <i class="bi bi-x-lg"></i> 
+</div>
 
 </div>
 </section>
+<!--script--->
+<script src="app.js"></script>
 </body>
 </html>
