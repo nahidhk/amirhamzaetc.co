@@ -14,12 +14,12 @@
 }
 
 .nav .tittle-nav{
-  font-size: 30px;
-  color: #4680ff;
-  position: absolute;
-  top: 14px;
-  left: 20px;
+ text-align: center;
   cursor: pointer;
+
+}
+.tittle-nav img{
+  height: 50px;
 }
 .nav .tittle-nav:hover{
   color: rgb(247, 0, 255);
@@ -64,7 +64,7 @@ css mobile
   display: block;
   font-size: 37px;
   position: absolute;
-  top: 13px;
+  top: 7px;
   right: 20px;
   transition: all 0.7s ;
 }
