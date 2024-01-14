@@ -47,6 +47,7 @@ button{
   color: orangered;
   border-bottom: 1px solid #4680ff ;
   border-radius: 100px;
+  @extend .vcc;
 }
 
 .menu-icon{
@@ -107,7 +108,11 @@ top: 0;
  border: 1px solid orangered;
  border-radius: 100px;
 }
-
+.tittle-nav{
+  position: absolute;
+  left: 35%;
+  
+}
 
 
 }

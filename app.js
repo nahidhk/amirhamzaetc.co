@@ -4,5 +4,4 @@ function clos(){
 
 function opne(){
    document.getElementById("menu_box").classList="menu-box  animate__animated .nav .menu-box .nav-btn:hover animate__bounceIn"
-
 }
