@@ -62,7 +62,7 @@ button{
 .user-box1{
   height: 100vh;
   width: 20%;
-  background-color: #efefef;
+  background-color: #FF0000;
   float: left;
   overflow-y: scroll;
   -ms-overflow-style: none;  /* IE and Edge */
@@ -71,8 +71,9 @@ button{
 .ads-box1{
   height: 100vh;
   width: 30%;
-  background-color: #eae8e8;
+  background-color: #00ACFF;
   float: left;
+  
   overflow-y: scroll;
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none; 
@@ -152,6 +153,21 @@ top: 0;
 }
 .user-box1{
   width: 100%;
+  float: none;
 }
+.main-box1{
+  width: 100%;
+  float: none;
+}
+.ads-box1{
+  height: 100vh;
+  width: 100%;
+  overflow-y: none;
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  float: none;
+}
+
 
 }
