@@ -10,13 +10,11 @@
   position: fixed;
   top: 0;
   box-shadow: 0 0 3px 0 #000;
-
 }
 
 .nav .tittle-nav{
  text-align: center;
   cursor: pointer;
-
 }
 .tittle-nav img{
   height: 50px;
@@ -47,19 +45,56 @@ button{
   color: orangered;
   border-bottom: 1px solid #4680ff ;
   border-radius: 100px;
-  @extend .vcc;
 }
 
 .menu-icon{
   display: none;
 }
+.main-box1{
+  height: 98vh;
+  width: 50%;
+  background-color: red;
+  float: left;
+  overflow-y: scroll;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none; 
+}
+.user-box1{
+  height: 100vh;
+  width: 20%;
+  background-color: green;
+  float: left;
+  overflow-y: scroll;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none; 
+}
+.ads-box1{
+  height: 100vh;
+  width: 30%;
+  background-color: yellow;
+  float: left;
+  overflow-y: scroll;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none; 
+}
+/* the w3 school comy */
+.ads-box1::-webkit-scrollbar , .user-box1::-webkit-scrollbar , .main-box1::-webkit-scrollbar{
+  display: none;
+}
+.ifb::-webkit-scrollbar {
+  display: none;
+}
+.ifb{
+  height: 100vh;
+  width: 100%;
 
+}
 
 /* =======================
 css mobile 
 =========================*/
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   .menu-icon{
     cursor: pointer;
   display: block;
@@ -113,6 +148,8 @@ top: 0;
   left: 35%;
   
 }
-
+.user-box1{
+  width: 100%;
+}
 
 }
