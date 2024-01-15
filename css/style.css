@@ -5,8 +5,8 @@
 .nav{
   height: 70px;
   width: 100%;
-  background-color: #eeeeeea1;
-  backdrop-filter: blur("4px");
+  background-color: #eeeeeedb;
+  backdrop-filter: blur(2px);
   position: fixed;
   top: 0;
   box-shadow: 0 0 3px 0 #000;
@@ -51,9 +51,9 @@ button{
   display: none;
 }
 .main-box1{
-  height: 98vh;
+  height: 100%;
   width: 50%;
-  background-color: red;
+  background-color: #ffffff;
   float: left;
   overflow-y: scroll;
   -ms-overflow-style: none;  /* IE and Edge */
@@ -62,7 +62,7 @@ button{
 .user-box1{
   height: 100vh;
   width: 20%;
-  background-color: green;
+  background-color: #efefef;
   float: left;
   overflow-y: scroll;
   -ms-overflow-style: none;  /* IE and Edge */
@@ -71,7 +71,7 @@ button{
 .ads-box1{
   height: 100vh;
   width: 30%;
-  background-color: yellow;
+  background-color: #eae8e8;
   float: left;
   overflow-y: scroll;
   -ms-overflow-style: none;  /* IE and Edge */
@@ -87,6 +87,8 @@ button{
 .ifb{
   height: 100vh;
   width: 100%;
+ margin: 0;
+ border: none;
 
 }
 
