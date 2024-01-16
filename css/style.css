@@ -62,11 +62,20 @@ button{
 .user-box1{
   height: 100vh;
   width: 20%;
-  background-color: #FF0000;
+  background-color: #F6F6F6;
   float: left;
   overflow-y: scroll;
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none; 
+}
+.user-box1 .userinfo-box{
+  height: auto;
+  width: 80%;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px 1px #FFFFFF;
+  padding: 10px;
+  margin:10px;
 }
 .ads-box1{
   height: 100vh;
@@ -92,12 +101,32 @@ button{
  border: none;
 
 }
-
+.ccv{
+  display: none;
+}
+.btn{
+  height: 36px;
+  width: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: 'Hedvig Letters Sans', sans-serif;
+}
 /* =======================
 css mobile 
 =========================*/
 
 @media only screen and (max-width: 900px) {
+  .ccv{
+    display: block;
+  }
+  .mobile-box{
+    bottom: 0;
+    position: fixed;
+   display: block;
+   height: 100px;
+   width: 100%;
+   background-color: #FF00F2CC;
+  }
   .menu-icon{
     cursor: pointer;
   display: block;
